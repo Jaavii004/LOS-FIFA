@@ -135,3 +135,9 @@ a.botones:hover {
     padding-top: 20px;
 }
 
+
+
+#moreText {
+    display: none;
+}
+
