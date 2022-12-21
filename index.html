@@ -44,27 +44,64 @@
 
  <!--Inicio de cuadrado-->
 
- <div class="row">
-      <img alt="photo 1" src="./img-Gallery/Gallery-9.png" />
-      <img alt="photo 2" src="./img-Gallery/Gallery-10.png" />
-</div>
-
-    <div class="row">
-        <img alt="photo 3" src="./img-Gallery/Gallery-3.png" />
-        <img alt="photo 4" src="./img-Gallery/Gallery-4.png" />
+  <div class="row">
+    <img alt="photo 1" src="./img-Gallery/Gallery-9.png" />
+    <img alt="photo 2" src="./img-Gallery/Gallery-10.png" />
+    <span id="points">...</span>
   </div>
 
-  <div class="row">
+    <button onclick="toggleText()" id="textButton">Ver mas...</button>
+    <span id="moreText"> 
+      <div class="row">
+          <img alt="photo 3" src="./img-Gallery/Gallery-3.png" />
+          <img alt="photo 4" src="./img-Gallery/Gallery-4.png" />
+      </div>
+    
+    
+      <div class="row">
         <img alt="photo 5" src="./img-Gallery/Gallery-5.png" />
         <img alt="photo 6" src="./img-Gallery/Gallery-6.png" />
-</div>
+      </div>
+      
+    
 
-  <div class="row">
+    <div class="row">
         <img alt="photo 7" src="./img-Gallery/Gallery-7.png" />
         <img alt="photo 8" src="./img-Gallery/Gallery-8.png" /> <br>
-  </div>
-
+    </div>
+  </span>
   
+ <!--POR PAU/ SCRIPT PARA MOSTRAR MAS (NO TOCAR!!!!!!!)-->
+
+  <script>
+    function toggleText() {
+
+        var points = 
+            document.getElementById("points");
+
+        var showMoreText =
+            document.getElementById("moreText");
+
+        var buttonText =
+            document.getElementById("textButton");
+
+        if (points.style.display === "none") {
+            showMoreText.style.display = "none";
+            points.style.display = "inline";
+            buttonText.innerHTML = "Ver mas...";
+        }
+        else {
+            showMoreText.style.display = "inline";
+            points.style.display = "none";
+            buttonText.innerHTML = "Ver menos";
+        }
+    }
+  </script>
+
+
+
+
+
     <!--POR ESCARTI/ ESTOS SON LOS BOTONES DE CONTACTOS AL FINAL DE HOJA-->
 
     <div class="strike">
