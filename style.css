@@ -93,3 +93,87 @@ nav a {
   padding: 0%;
   font-size: small;
 }
+
+
+img.mercha {
+  width: 500px;
+  height:auto;
+  margin: 10px;
+}
+
+img.mercha2 {
+  width: 1000px;
+  height:auto;
+  display:block;
+  margin:auto;
+}
+
+.caja {
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-left: 370px ;
+  margin-right: 370px ;
+  margin-bottom: 50px ;
+  background-color: #EFEFEF;
+}
+
+.caja2 {
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 440px; 
+  margin-right: 440px;
+  margin-bottom: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #EFEFEF;
+}
+
+
+.enlace {
+  text-align: left;
+  font-size: small;
+}
+
+.row {
+  display: flex;
+  max-width: 100vw;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: #DDDDDD;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.contact-item{
+  display: inline;
+  margin: 60px;
+  font-size: x-large;
+}
+
+.logo{
+  margin-left: 70px;
+  width: 150px;
+  height: 150px;
+}
+.logoKaren {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+
+a:link {
+text-decoration: none;
+color: black;
+}
+a:visited {
+text-decoration: none;
+}
