@@ -1,11 +1,3 @@
-a:link {
-  text-decoration: none;
-  color: black;
-}
-a:visited {
-  text-decoration: none;
-}
-
 .menu {
   list-style-type: none;
   margin: 0;
@@ -87,7 +79,7 @@ img.mercha2 {
   margin-left: 370px ;
   margin-right: 370px ;
   margin-bottom: 0px ;
-  background-color: #EFEFEF;
+  background-color: #DDDDDD;
 }
 
 .ca {
@@ -107,7 +99,7 @@ img.mercha2 {
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 0px;
-  background-color: #EFEFEF;
+  background-color: #DDDDDD;
 }
 
 .caja3 {
@@ -165,12 +157,14 @@ align-items: center;
 height: 500px;
 }
 
+/* Quita el color azul cuando pulsas sobre el boton */
 a:link {
 text-decoration: none;
-color: black;
+color: #040404;
 }
 a:visited {
 text-decoration: none;
+color: #040404;
 }
 
 @font-face {
