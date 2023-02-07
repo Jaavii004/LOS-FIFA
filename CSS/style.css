@@ -1,258 +1,56 @@
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-  
-nav li {
-  float: left;
-  display: flex;
-  padding: 25px;
+/* Menu Bruno */
+
+header {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.menu {
-  border: 1px solid black;
-  box-sizing: border-box;
-  border-collapse: collapse;
-}
 
-nav a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+body {
+  background-color: #EFEFEF;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+nav li {   
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 .f-border {
-  border-right: 1px solid rgb(0, 0, 0);
-  margin: 0%;
-}
-
-.s-border {
-  border-left: 1px solid rgb(0, 0, 0);
-  margin: 0%;
-  padding: 31px;
-}
-  
-.n-border {
-  border: none;
-  justify-items: end;
-  margin: 0%;
-  padding: 31px;
-}
-
-.menu-container {
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  width: 100%; /* Ancho del menú */
-  margin: 0 auto; /* Centrar el menú en la página */
-  overflow: hidden;
-}
-
-.home-title {
-  align-items: center;
-  justify-content: center;
-  margin: 0%;
-  padding: 0%;
-  font-size: small;
-}
-
- /* Cajas de contenido/Imagenes*/
-
-img.mercha {
-  width: 500px;
-  height:auto;
-  margin: 10px;
-}
-
-img.mercha2 {
-  width: 1000px;
-  height:auto;
-  display:block;
-  margin:auto;
-}
-
-.caja {
-  border: 1px solid rgb(0, 0, 0);
-  margin-top: 0px;
-  margin-left: 370px ;
-  margin-right: 370px ;
-  margin-bottom: 0px ;
-  background-color: #DDDDDD;
-}
-
-.ca {
-    margin-top: 50px;
-}
-
-.caj {
-  margin-bottom: 50px;
-}
-
-
- /* Para enlaces de paginas*/
-.caja2 {
-  border: 1px solid rgb(0, 0, 0);
-  margin-left: 440px; 
-  margin-right: 440px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 0px;
-  background-color: #DDDDDD;
-}
-
-.caja3 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.border {
-  border-right: 1px solid rgb(0, 0, 0);
-  padding-left: 0%;
-
-}
-
-.enlace {
-  text-align: right;
-  font-size: small;
-}
-
- /* Contact me*/
-.row {
-  display: flex;
-  max-width: 100vw;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 20px;
-}
-.contacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  background-color: #DDDDDD;
   border: 1px solid black;
-  padding: 30px;
-  margin-left: 19%;
-  margin-right: 19%;
+}
+.n-border {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.contact-item{
-  display: inline;
-  margin: 30px;
-  font-size: x-large;
+.nav-item1 {
+  flex-basis: auto;
 }
-
-.logo{
-  margin-left: 70px;
-  width: 150px;
-  height: 150px;
-}
-.logoKaren {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 500px;
-}
-
-/* Quita el color azul cuando pulsas sobre el boton */
-a:link {
-text-decoration: none;
-color: #040404;
-}
-a:visited {
-text-decoration: none;
-color: #040404;
-}
-
-@font-face {
-  font-family: 'HKGrotestk-MediumLegacyItalic';
-  src: url(./typography/hk-grotesk/HKGrotesk-MediumLegacyItalic.otf) format("truetype");
-  font-style: normal;
-  color: rgb(0, 0, 0);
-}
-body {
-  font-family: 'HKGrotestk-MediumLegacyItalic','sans';
-  src: url(./typography/hk-grotesk/HKGrotesk-MediumLegacyItalic.otf) format("truetype");
-  font-style: normal;
-  color: rgb(0, 0, 0);
-}
-
-img.SobreMi {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1155px;
-  height: auto;
-}
-
-.retrato {
+.nav-item2 {
   display: flex;
-  justify-content: center;
 }
 
-.contenedor{
-  position: relative;
-  display: inline-block;
-  text-align: center;
+nav li a {
+  text-decoration:none;
+}
+nav li a:hover {
+  color: #b8211e;
 }
 
-
-.texto-centrado-img{
-  font-size: 11px;
-  position: absolute;
-  top: 20%;
-  left: 60%;
-  transform: translate(-25%, -20%);
-  text-align: left;
-  background-color: white;
-  padding: 30px;
+nav li h3 {
+  margin-bottom: 10px;
 }
-
-/* Zona de Autores de Alvaro */
-
-h2 {
-  font: 25px sans-serif;
-  margin-top: 30px;
-  text-align: center;
+h3, h4 {
+    margin: 0;
+    font-size: small;
+    font-weight: normal;
 }
-h2.linea {
-  position: relative;
-  z-index: 1;
-}
-h2.linea:before {
-  border-top: 2px solid #040404;
-  content: "";
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 95%;
-  z-index: -1;
-}
-h2.linea span {
-
-  background: #fff;
-  padding: 0 15px;
-}
-
-/* Alineo al centro con un pequeño margen para que la imagen de javier puertas quede en el centro de autores, esteticamente bien */
-.autores {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  margin-left: 0%;
-  text-decoration: none;
-  text-decoration: #040404;
-
-}
-
-.enlace:after {
-  content: "\2192";
-  margin-left: 10px;
-}
+/* Menu Bruno */
