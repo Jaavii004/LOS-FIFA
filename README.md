@@ -1,4 +1,6 @@
 # LOS FIFA
 
-enlace de la pagina web
+Enlace de la pagina web para poder visualizarla
+~~~
 https://jaavii004.github.io/LOS-FIFA/
+~~~
