@@ -66,8 +66,7 @@ img.mercha {
 img.mercha2 {
   width: 1000px;
   height:auto;
-  display:block;
-  margin:auto;
+  justify-content: center;
 }
 
 .caja {
@@ -111,7 +110,7 @@ img.mercha2 {
 }
 
 .enlace {
-  text-align: right;
+  text-align: left;
   font-size: small;
 }
 
@@ -373,3 +372,19 @@ input:not(:checked)+label+.ci {
   width: 700px;
   height: 500px;
 }
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  margin-right: 345px;
+
+}
+
+article {
+  background-color: #EFEFEF;
+  border: black 1px solid;
+  padding: 4px;
+
+}
+
