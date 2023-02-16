@@ -88,10 +88,12 @@ img.mercha2 {
 
 .ca {
   margin-top: 50px;
+
 }
 
 .caj {
   margin-bottom: 50px;
+  flex-direction: column
 }
 
 
@@ -346,11 +348,11 @@ input:not(:checked)+label+.ci {
 }
 
 section {
-  display: flex;
-  flex-direction: row;
-  margin-left: 400px;
-  margin-right: 345px;
-
+  margin: auto;
+  align-items: center;
+  display: table;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 article {
