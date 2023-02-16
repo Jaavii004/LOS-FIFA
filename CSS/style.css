@@ -260,7 +260,7 @@ h2.linea span {
   padding: 10px;
   padding-bottom: 40px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -347,10 +347,8 @@ input:not(:checked)+label+.ci {
 
 section {
   display: flex;
-  flex-direction: row;
-  margin-left: 400px;
-  margin-right: 345px;
-
+  flex-wrap: wrap;
+  margin-left: 700px;
 }
 
 article {
