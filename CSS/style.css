@@ -348,9 +348,7 @@ input:not(:checked)+label+.ci {
 }
 
 section {
-  margin: auto;
-  align-items: center;
-  display: table;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
