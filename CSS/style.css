@@ -9,23 +9,26 @@ header {
 body {
   background-color: #EFEFEF;
 }
+
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
-nav li {   
-    padding: 10px;
-    text-align: center;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
+
+nav li {
+  padding: 10px;
+  text-align: center;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
 }
 
 .f-border {
   border: 1px solid black;
 }
+
 .n-border {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -34,13 +37,15 @@ nav li {
 .nav-item1 {
   flex-basis: auto;
 }
+
 .nav-item2 {
   display: flex;
 }
 
 nav li a {
-  text-decoration:none;
+  text-decoration: none;
 }
+
 nav li a:hover {
   color: #b8211e;
 }
@@ -48,38 +53,41 @@ nav li a:hover {
 nav li h3 {
   margin-bottom: 10px;
 }
-h3, h4 {
-    margin: 0;
-    font-size: small;
-    font-weight: normal;
+
+h3,
+h4 {
+  margin: 0;
+  font-size: small;
+  font-weight: normal;
 }
+
 /* Menu Bruno */
 
- /* Cajas de contenido/Imagenes*/
+/* Cajas de contenido/Imagenes*/
 
 img.mercha {
   width: 500px;
-  height:auto;
+  height: auto;
   margin: 10px;
 }
 
 img.mercha2 {
   width: 1000px;
-  height:auto;
+  height: auto;
   justify-content: center;
 }
 
 .caja {
   border: 1px solid rgb(0, 0, 0);
   margin-top: 0px;
-  margin-left: 370px ;
-  margin-right: 370px ;
-  margin-bottom: 0px ;
+  margin-left: 370px;
+  margin-right: 370px;
+  margin-bottom: 0px;
   background-color: #DDDDDD;
 }
 
 .ca {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .caj {
@@ -87,10 +95,10 @@ img.mercha2 {
 }
 
 
- /* Para enlaces de paginas*/
+/* Para enlaces de paginas*/
 .caja2 {
   border: 1px solid rgb(0, 0, 0);
-  margin-left: 440px; 
+  margin-left: 440px;
   margin-right: 440px;
   margin-bottom: 10px;
   padding-top: 10px;
@@ -114,8 +122,8 @@ img.mercha2 {
   font-size: small;
 }
 
- /* Contact me*/
- .contacto {
+/* Contact me*/
+.contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,13 +135,13 @@ img.mercha2 {
   margin-right: 19%;
 }
 
-.contact-item{
+.contact-item {
   display: inline;
   margin: 31px;
   font-size: x-large;
 }
 
-.logo{
+.logo {
   margin-left: 20px;
   width: 150px;
   height: 150px;
@@ -143,12 +151,13 @@ img.mercha2 {
 
 /* Quita el color azul cuando pulsas sobre el boton */
 a:link {
-text-decoration: none;
-color: #040404;
+  text-decoration: none;
+  color: #040404;
 }
+
 a:visited {
-text-decoration: none;
-color: #040404;
+  text-decoration: none;
+  color: #040404;
 }
 
 @font-face {
@@ -157,8 +166,9 @@ color: #040404;
   font-style: normal;
   color: rgb(0, 0, 0);
 }
+
 body {
-  font-family: 'HKGrotesk-BoldLegacy','sans';
+  font-family: 'HKGrotesk-BoldLegacy', 'sans';
   src: url(../typography/hk-grotesk/HKGrotesk-BoldLegacy.otf) format("truetype");
   font-style: normal;
   color: rgb(0, 0, 0);
@@ -170,7 +180,7 @@ body {
 }
 
 
-.texto-centrado-img{
+.texto-centrado-img {
   font-size: 11px;
   position: absolute;
   top: 20%;
@@ -188,10 +198,12 @@ h2 {
   margin-top: 30px;
   text-align: center;
 }
+
 h2.linea {
   position: relative;
   z-index: 1;
 }
+
 h2.linea:before {
   border-top: 2px solid #040404;
   content: "";
@@ -204,6 +216,7 @@ h2.linea:before {
   width: 95%;
   z-index: -1;
 }
+
 h2.linea span {
 
   background: #fff;
@@ -231,14 +244,12 @@ h2.linea span {
 
 /* SLIDER */
 
-.section_slider{
+.section_slider {
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-height: 100vh;
   margin: 0;
-
 }
 
 
@@ -246,18 +257,14 @@ h2.linea span {
   min-width: 700px;
   width: 1300px;
   height: 800px;
-
   padding: 10px;
   padding-bottom: 40px;
-
   display: flex;
   align-items: flex-end;
   justify-content: center;
-
   position: relative;
   overflow: hidden;
   background: hsl(0 0% 90%);
-
   box-sizing: border-box;
 }
 
@@ -265,7 +272,6 @@ h2.linea span {
   position: absolute;
   top: 0;
   left: 0;
-
   width: inherit;
   height: inherit;
   transform-origin: left 50%;
@@ -317,8 +323,8 @@ label:last-child {
 
 input:checked+label {
   background: linear-gradient(to right,
-    hsla(var(--hue) 72% 42% / 1),
-    hsla(calc(var(--hue) + 15) 72% 42% / 1));
+      hsla(var(--hue) 72% 42% / 1),
+      hsla(calc(var(--hue) + 15) 72% 42% / 1));
 }
 
 input:not(:checked)+label+.ci {
@@ -334,7 +340,7 @@ input:not(:checked)+label+.ci {
   transition: 0;
 }
 
-.image_slider{
+.image_slider {
   width: 1300px;
   height: 800px;
 }
@@ -353,4 +359,3 @@ article {
   padding: 4px;
 
 }
-
