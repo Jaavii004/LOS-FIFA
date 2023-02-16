@@ -80,8 +80,6 @@ img.mercha2 {
 .caja {
   border: 1px solid rgb(0, 0, 0);
   margin-top: 0px;
-  margin-left: 370px;
-  margin-right: 370px;
   margin-bottom: 0px;
   background-color: #DDDDDD;
 }
@@ -100,8 +98,6 @@ img.mercha2 {
 /* Para enlaces de paginas*/
 .caja2 {
   border: 1px solid rgb(0, 0, 0);
-  margin-left: 440px;
-  margin-right: 440px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 0px;
@@ -349,8 +345,8 @@ input:not(:checked)+label+.ci {
 
 section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 article {
@@ -358,4 +354,29 @@ article {
   border: black 1px solid;
   padding: 4px;
 
+}
+
+/* Oculta el menú desplegable por defecto */
+.dropdown-content {
+  display: none;
+}
+
+/* Estilo para el botón */
+.dropbtn {
+  width: 200px;
+  margin: auto;
+  background-color: #EFEFEF;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.align-center {
+  text-align: center;
 }
