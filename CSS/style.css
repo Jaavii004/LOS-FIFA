@@ -1,15 +1,12 @@
 /* Menu Bruno */
 
-header {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-
 body {
   background-color: #EFEFEF;
 }
-
+.contenedor_pagina {
+  width: 900px;
+  margin: auto;
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -54,14 +51,11 @@ nav li h3 {
   margin-bottom: 10px;
 }
 
-h3,
-h4 {
+h3,h4 {
   margin: 0;
   font-size: small;
   font-weight: normal;
 }
-
-/* Menu Bruno */
 
 /* Cajas de contenido/Imagenes*/
 
@@ -129,8 +123,6 @@ img.mercha2 {
   background-color: #DDDDDD;
   border: 1px solid black;
   padding: 30px;
-  margin-left: 19%;
-  margin-right: 19%;
 }
 
 .contact-item {
@@ -246,15 +238,15 @@ h2.linea span {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
+  padding-bottom: 20px;
+
 }
 
 
 .c {
   min-width: 700px;
-  width: 1300px;
-  height: 800px;
+  width: 900px;
+  height: 700px;
   padding: 10px;
   padding-bottom: 40px;
   display: flex;
@@ -339,8 +331,8 @@ input:not(:checked)+label+.ci {
 }
 
 .image_slider {
-  width: 1300px;
-  height: 800px;
+  width: 900px;
+  height: 700px;
 }
 
 section {
