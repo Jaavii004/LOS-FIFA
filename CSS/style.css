@@ -346,6 +346,10 @@ article {
   border: black 1px solid;
 }
 
+article p {
+  text-align: center;
+}
+
 /* Oculta el menú desplegable por defecto */
 .dropdown-content {
   display: none;
