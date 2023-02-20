@@ -370,3 +370,25 @@ article {
 .align-center {
   text-align: center;
 }
+
+h2.linea {
+  position: relative;
+  z-index: 1;
+}
+h2.linea:before {
+  border-top: 2px solid #040404;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h2.linea span {
+
+  background: #EFEFEF;
+  padding: 0 15px;
+}
