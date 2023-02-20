@@ -4,7 +4,8 @@ body {
   background-color: #EFEFEF;
 }
 .contenedor_pagina {
-  width: 900px;
+  max-width: 900px;
+  min-width: 300px;
   margin: auto;
 }
 nav ul {
@@ -60,13 +61,12 @@ h3,h4 {
 /* Cajas de contenido/Imagenes*/
 
 img.mercha {
-  width: 500px;
+  width: 100%;
   height: auto;
-  margin: 10px;
 }
 
 img.mercha2 {
-  width: 1000px;
+  width: 100%;
   height: auto;
   justify-content: center;
 }
@@ -331,12 +331,12 @@ input:not(:checked)+label+.ci {
 }
 
 .image_slider {
-  width: 900px;
+  width: auto;
   height: 700px;
 }
 
 section {
-  display: flex;
+  display: auto;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -344,8 +344,6 @@ section {
 article {
   background-color: #EFEFEF;
   border: black 1px solid;
-  padding: 4px;
-
 }
 
 /* Oculta el menú desplegable por defecto */
