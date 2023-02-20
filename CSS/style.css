@@ -396,3 +396,16 @@ h2.linea span {
   background: #EFEFEF;
   padding: 0 15px;
 }
+
+.texto-centrado{
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 40%
+}
+
+.texto-centrado img{
+  display: block;
+  margin-top: 10px;
+}
+
